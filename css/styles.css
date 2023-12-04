@@ -133,7 +133,7 @@ body {
 }
 
 .person-name {
-    background-color: #FFFFFF;
+    background-color: #FFFFFFFF;
 }
 
 .footer {
@@ -141,7 +141,7 @@ body {
 }
 
 .logo-studio-footer {
-    color: var(--color-logo-studio-footer);
+    color: #f4f4f4fd;
 }
 
 .footer-text {
