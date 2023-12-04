@@ -3,6 +3,7 @@
     --color-logo: #4d5ae5;
     --color-logo-studio: #2e2f42;
     --color-hover: #404bbf;
+    --color-team-bg: #F4F4FD;
 
 }
 * {
@@ -15,6 +16,8 @@ body {
     color: var(--color-a);
     background-color: #FFFFFF;
 }
+
+/* header stuff */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -60,4 +63,79 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-a);
+}
+
+/* hero section */
+
+.hero-section {
+    background-color: var(--color-logo-studio);
+}
+
+.hero-section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.button {
+    background-color: var(--color-logo);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--color-hover);
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-logo-studio);
+}
+
+.list-para {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-a);
+}
+
+.mission-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-logo-studio);
+}
+
+.team-section {
+    background-color: var(--color-team-bg);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-logo-studio);
+}
+
+.person-name {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: var(--color-logo-studio);
+    
 }
